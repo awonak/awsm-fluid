@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2MS1T1B1M2QES")(type "KiCad")(uri "${KIPRJMOD}/library/2MS1T1B1M2QES/2MS1T1B1M2QES.kicad_sym")(options "")(descr ""))
+  (lib (name "RA2045F-20R-15LC-B10K-C")(type "KiCad")(uri "${KIPRJMOD}/library/RA2045F-20R-15LC-B10K-C/RA2045F-20R-15LC-B10K-C.kicad_sym")(options "")(descr ""))
+  (lib (name "4ms_Potentiometer")(type "KiCad")(uri "C:/Users/Adam/Projects/4ms-kicad-lib/symbols/4ms_Potentiometer.kicad_sym")(options "")(descr ""))
+)
