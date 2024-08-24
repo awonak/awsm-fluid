@@ -12,6 +12,429 @@
 		(comment 1 "Adam Wonak")
 	)
 	(lib_symbols
+		(symbol "Analog_DAC:MCP4822"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MCP4822"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "12-Bit DAC SPI Reference 2ch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP4822_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -0.889) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.143) (xy 2.286 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -0.889) (xy -0.381 -0.889) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 2.286 -1.27) (xy 2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.889) (xy 0.508 -1.397) (xy -0.508 -1.397) (xy 0 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 9.525 -3.81) (xy 9.525 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.27) (xy 9.525 1.27) (xy 9.525 2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.762 -0.381)
+					(end -0.762 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "CNTRL"
+					(at -2.032 -4.191 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "DAC"
+					(at 3.81 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "DAC"
+					(at 3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "MCP4822_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 -6.35)
+					(end -3.81 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 5.715 -1.905) (xy 1.27 -1.905) (xy 1.27 -5.715) (xy 5.715 -5.715) (xy 6.985 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.27) (xy 5.715 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 5.715 -0.635) (xy 6.985 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCP4822_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{LDAC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3255,6 +3678,12 @@
 		(uuid "664ad610-79af-4ac4-af7d-f5b906bbe3f4")
 	)
 	(junction
+		(at 215.9 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73fb2ade-26e4-444a-a5b7-fcb7ac3ca038")
+	)
+	(junction
 		(at 101.6 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3315,6 +3744,12 @@
 		(uuid "c6bae289-33d5-498c-a62e-3e9fe4b43e94")
 	)
 	(junction
+		(at 242.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caea768c-039d-47fe-a25b-f1e49f809417")
+	)
+	(junction
 		(at 58.42 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3325,6 +3760,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b535cd-a3be-4291-91b5-3fb2cd1c1a70")
+	)
+	(junction
+		(at 215.9 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff94750-bc08-46f9-9c2b-b5876934a948")
 	)
 	(no_connect
 		(at 68.58 74.93)
@@ -3353,10 +3794,6 @@
 	(no_connect
 		(at 40.64 74.93)
 		(uuid "b69e9250-4462-47de-962f-636d47892908")
-	)
-	(no_connect
-		(at 40.64 77.47)
-		(uuid "c70f8c6e-53d6-4b83-b50f-ea991259564b")
 	)
 	(no_connect
 		(at 43.18 44.45)
@@ -3450,6 +3887,16 @@
 		)
 		(uuid "09f04f6a-dd10-4c54-ab7d-f5e5f31428ba")
 	)
+	(polyline
+		(pts
+			(xy 269.24 72.39) (xy 269.24 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f0c9fa-fc9c-4208-bb77-3fbbfa31974f")
+	)
 	(wire
 		(pts
 			(xy 190.5 38.1) (xy 190.5 40.64)
@@ -3532,6 +3979,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 105.41) (xy 229.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8981c3-cfaa-4f24-a332-6c7c65cc4f9e")
+	)
+	(wire
+		(pts
 			(xy 45.72 116.84) (xy 48.26 116.84)
 		)
 		(stroke
@@ -3539,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "1f864eca-da18-45d2-9e34-b18aeaab30f5")
+	)
+	(wire
+		(pts
+			(xy 234.95 91.44) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250a0ef6-5bdb-4047-8d80-0418557ecb8c")
 	)
 	(wire
 		(pts
@@ -3569,6 +4036,26 @@
 			(type default)
 		)
 		(uuid "26ac5773-1dfa-42a7-a390-e3dfd6cd2114")
+	)
+	(wire
+		(pts
+			(xy 242.57 120.65) (xy 242.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2963b49c-669c-4867-9fc4-a4e8c1ff1bcd")
+	)
+	(wire
+		(pts
+			(xy 227.33 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296ff161-3a8b-4617-bb2d-2cfa956f0ae3")
 	)
 	(wire
 		(pts
@@ -3822,6 +4309,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 105.41) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f41dd0-2b3f-4865-9f01-9e42241f7240")
+	)
+	(wire
+		(pts
 			(xy 63.5 31.75) (xy 63.5 29.21)
 		)
 		(stroke
@@ -3869,6 +4366,16 @@
 			(type default)
 		)
 		(uuid "613ab501-0ca8-4269-9c82-ba0d43c8f1ec")
+	)
+	(polyline
+		(pts
+			(xy 269.24 135.89) (xy 204.47 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624f9aed-3479-4f5a-92f2-b192c332f0fd")
 	)
 	(wire
 		(pts
@@ -4012,6 +4519,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 91.44) (xy 242.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c819239-6484-46ea-afc3-3dc6d5c6bb1d")
+	)
+	(wire
+		(pts
 			(xy 43.18 132.08) (xy 43.18 129.54)
 		)
 		(stroke
@@ -4049,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "9a917d72-892f-4241-bc6c-3c0f49d30e3c")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 242.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3aeb71-449e-47dc-9417-f2b109d2f5b4")
 	)
 	(wire
 		(pts
@@ -4130,6 +4657,16 @@
 		)
 		(uuid "b6ab2548-581f-44fc-a186-511de57abb7b")
 	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b4bdc1-d181-45bd-8c8c-cf81069a3d47")
+	)
 	(polyline
 		(pts
 			(xy 250.19 22.86) (xy 118.11 22.86)
@@ -4189,6 +4726,16 @@
 			(type default)
 		)
 		(uuid "c129dc0f-b278-4400-b3a4-025129098874")
+	)
+	(wire
+		(pts
+			(xy 242.57 87.63) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1965cb4-ff85-45be-85aa-09e93540c24e")
 	)
 	(wire
 		(pts
@@ -4320,6 +4867,16 @@
 		)
 		(uuid "d5e18c73-214b-4c1b-9000-4e06ba553ecc")
 	)
+	(polyline
+		(pts
+			(xy 204.47 72.39) (xy 204.47 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f51b85-a6b1-4f7c-9855-f36b91a45673")
+	)
 	(wire
 		(pts
 			(xy 165.1 129.54) (xy 165.1 128.27)
@@ -4442,6 +4999,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 91.44) (xy 215.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7be09d0-de0c-41a8-be2b-1218726e8df6")
+	)
+	(wire
+		(pts
 			(xy 40.64 49.53) (xy 43.18 49.53)
 		)
 		(stroke
@@ -4449,6 +5016,16 @@
 			(type default)
 		)
 		(uuid "f8d17f06-5b25-4d9c-b008-94abe1440449")
+	)
+	(polyline
+		(pts
+			(xy 204.47 72.39) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa446efb-faaa-4553-a54f-a3c041fcb00c")
 	)
 	(polyline
 		(pts
@@ -4480,6 +5057,17 @@
 		)
 		(uuid "06c2e199-d703-4136-9a02-a926be59268b")
 	)
+	(text "Output DAC"
+		(exclude_from_sim no)
+		(at 207.772 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bb6bbca-069a-489c-a454-5154929de10c")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 31.496 110.998 0)
@@ -4492,13 +5080,35 @@
 	)
 	(text "Digital Input & Buttons"
 		(exclude_from_sim no)
-		(at 129.54 25.4 0)
+		(at 131.064 26.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c53f068d-7411-4184-9da5-cfc99bc62c48")
+	)
+	(global_label "DAC SDI"
+		(shape input)
+		(at 229.87 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "053203a3-80b7-4ba9-a8d6-595b2f149582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.2043 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "Gate 2"
 		(shape input)
@@ -4518,6 +5128,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV OUT 2"
+		(shape input)
+		(at 255.27 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "196787d8-6c0b-4610-9020-e39a80590b94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.3871 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4557,6 +5189,50 @@
 		(uuid "2486f6ac-67d9-4595-82ff-2f6c1c983a6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.8015 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC SDI"
+		(shape input)
+		(at 40.64 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27d82d31-f627-4ebf-9051-b8eaaa4d8ac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9743 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC SCK"
+		(shape input)
+		(at 40.64 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bfa4547-c478-4ac5-b0ed-7073246db8a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.3091 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,28 +5299,6 @@
 		(uuid "3c4488ff-10d9-4540-ad4d-e15987ccdf2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.8015 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CV OUT 1"
-		(shape input)
-		(at 40.64 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40fd5056-6ec1-45fe-8886-86edc7f273a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,28 +5418,6 @@
 			)
 		)
 	)
-	(global_label "CV OUT 2"
-		(shape input)
-		(at 40.64 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e066a10-ff6b-4f68-8594-d546643a91be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CV IN LED 3"
 		(shape input)
 		(at 40.64 59.69 180)
@@ -4852,6 +5484,50 @@
 			)
 		)
 	)
+	(global_label "DAC CS"
+		(shape input)
+		(at 229.87 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c68a401f-83bf-4b1a-9714-4339a8dd5b87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.8091 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV OUT 1"
+		(shape input)
+		(at 255.27 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8575b9a-6767-4e52-824a-7f3c44fa44b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.3871 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CV IN 1"
 		(shape input)
 		(at 71.12 59.69 0)
@@ -4892,6 +5568,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC CS"
+		(shape input)
+		(at 40.64 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d71c1de8-4874-44ec-b092-8a7281133ff4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5791 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC SCK"
+		(shape input)
+		(at 229.87 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc4c2207-20be-4796-9a40-fbd2b6f88e4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.5391 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6403,6 +7123,233 @@
 			(project "fluid"
 				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4822")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d924142-f299-4fd6-9d99-dad1c8a081f3")
+		(property "Reference" "U5"
+			(at 244.7641 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP4822"
+			(at 244.7641 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
+			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16040"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9a600bfd-1122-40bb-878f-8593e9b598c9")
+		)
+		(pin "6"
+			(uuid "c8f591b6-1fd4-4da1-864a-b0f5ecf6c730")
+		)
+		(pin "4"
+			(uuid "e14a3940-6d78-45ff-9436-2b5ed6cef698")
+		)
+		(pin "2"
+			(uuid "0bcfed27-4dc3-4680-8285-d39a4e42e2ae")
+		)
+		(pin "7"
+			(uuid "ae454883-1932-4477-ad9b-35d9f06f2735")
+		)
+		(pin "3"
+			(uuid "5f072818-5da5-45cc-b125-39a5b5053a38")
+		)
+		(pin "8"
+			(uuid "b6633710-3bf9-4750-8eb4-bf81e77e98a3")
+		)
+		(pin "1"
+			(uuid "5a07fcfd-defb-4952-a3d7-4f1eabcd0f35")
+		)
+		(instances
+			(project "fluid"
+				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e254e60-bb71-4707-ad60-5b53027e7dcc")
+		(property "Reference" "#PWR074"
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.027 127.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cce924ff-dc60-49e5-a8f7-4cc09743f395")
+		)
+		(instances
+			(project "fluid"
+				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 242.57 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ee8a6e6-44c9-4dbe-acc9-16b99b6df246")
+		(property "Reference" "#PWR073"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 242.951 83.2358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95a8535-3994-4dc4-8a10-f25a2214564e")
+		)
+		(instances
+			(project "fluid"
+				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8422,6 +9369,84 @@
 			(project "fluid"
 				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c1ba37-a30b-49ce-b25c-96430b9da4d9")
+		(property "Reference" "C19"
+			(at 232.918 82.5246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.918 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 227.33 92.4052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fdb023d-d87e-4a66-96c0-c545de381166")
+		)
+		(pin "2"
+			(uuid "ec2c59f6-8a65-438c-9da1-b3ef8d1356c9")
+		)
+		(instances
+			(project "fluid"
+				(path "/cb117578-6884-453e-b5a8-f5d1753b646d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
