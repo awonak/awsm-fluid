@@ -15,12 +15,12 @@
 **Analog Inputs**
 
 * 4 slide potentiometers w/ addressable LEDs
-* 4 CV inputs w/ attenuator pots, summed with each slide pot.
+* 4 CV inputs (-5v to 5v) w/ attenuator pots, summed with each slide pot.
 
 **Analog Outputs**
 
 * 2 PWM 0-10v outputs w/ LED indicator
-* Each output paired with additional output which can be an inverted copy (-10v - 0v) or bipolar output (-10v - 10v).
+* Each output paired with additional output which can be an inverted copy (-10v to 0v) or bipolar output (-10v to 10v).
 
 ## Concept
 
