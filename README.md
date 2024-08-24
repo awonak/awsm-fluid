@@ -1,6 +1,9 @@
 # AWSM - Fluid
 
-3u 12hp Arduino based multi-purpose utility module
+> [!NOTE]  
+> This project is a work in progress and may contain errors.
+
+3u 12hp Arduino based multi-purpose utility module. 
 
 ## Features
 
